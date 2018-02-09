@@ -10,7 +10,7 @@ var app = express();
 // });
 // app.get('/api/get', require("./controllers/api/get"));
 // app.get('/', require("./controllers/index"));
-app.listen(3000);
+app.listen(3030);
 console.log('Listening on port 3000');
 
 function express(){
