@@ -16,7 +16,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', engine.mustache);
 app.set('view engine', 'html');
-
+//dddd
 app.use(express.static(__dirname + '/views'));
 
 // uncomment after placing your favicon in /public
